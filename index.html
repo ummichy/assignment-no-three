@@ -36,12 +36,12 @@
       </script>
     
 </head>
-<body class="font-sora md:bg-[#FFF9F4] md:h-[100px] md:px-3  lg:px-0 md:pt-4 ">
-    <header class="container mx-auto">
-      <nav class="flex justify-between items-center border-[1px] border-black h-[70px] md:border-none px-4 md:px-0 bg-[#FFF9F4] md:bg-none">
+<body class="font-sora md:bg-[#FFF9F4] md:h-[100px] md:px-3  lg:px-0 md:pt-4">
+    <header class="container mx-auto relative ">
+      <nav class="flex justify-between items-center border-[1px] border-black h-[70px] md:border-none px-4 md:px-0 bg-[#FFF9F4] md:bg-none mb-8 md:mb-14 lg:mb-20">
         <div class="flex items-center gap-3">
           <img src="c1-assets/logo-header.png" alt="">
-          <h3 class="inline md:text-sm lg:text-2xl hidden md:flex">Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
+          <h3 class="md:text-sm lg:text-2xl hidden md:flex">Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
         </div>
 
         <div class="navbar-center hidden md:flex">
@@ -51,7 +51,7 @@
             <li><a class="lg:text-xl md:text-xs">Contact us</a></li>
           </ul>
         </div>
-        <div class="flex items-center md:gap-2 lg:gap-4 hidden md:flex">
+        <div class="items-center md:gap-2 lg:gap-4 hidden md:flex">
           <div><i class="fa-regular fa-bell btn bg-transparent "></i></div>
           <div><i class="fa-solid fa-magnifying-glass"></i></div>
           <button class="lg:w-28 lg:h-11 lg:text-xl md:w-20 md:h-8 font-sora bg-[#FFF9F4] border-2 border-[#FFDC26] rounded-lg btn">Login</button>
@@ -59,100 +59,93 @@
         </div>
 <div class=" md:hidden"><i class="fa-solid fa-bars md:hidden text-3xl "></i></div>
       </nav>
-<section class="relative grid grid-cols-1 grid-rows-2 mt-8 md:mt-16 lg:mt-20 px-4 md:px-3 lg:px-0 z-10">
+      <div class="hero min-h-screen">
+        <img src="c1-assets/cat-big.png" class="w-full h-auto object-cover mb-[350px] md:mb-32 lg:mb-0  " alt="cat">
+        
+      <div class="w-full mb-[650px] md:mb-[400px] px-4 md:px-0">
+        <h3 class="font-adlam text-3xl md:text-5xl lg:text-[56px] mb-3 md:mb-4">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h3>
+        <p class="text-base md:text-xl w-[350px] md:w-[672px] mb-3 md:mb-6">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+        <button class="font-sora btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-36 md:w-40 text-base md:text-xl h-10 md:h-11 bg-[#FFDC26]">Find a pet</button>
+      
+      
+    </div>
 
-<div>
-  <h3 class="font-adlam text-3xl md:text-5xl lg:text-[56px] mb-3 md:mb-4">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h3>
-  <p class="text-base md:text-xl w-[350px] md:w-[672px] mb-3 md:mb-6">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-  <button class="font-sora btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-36 md:w-40 text-base md:text-xl h-10 md:h-11 bg-[#FFDC26]">Find a pet</button>
 
-</div>
 
-<img class="absolute top-40 md:top-40 lg:-top-14 z-[-1] w-auto md:w-auto" src="c1-assets/cat-big.png" alt="">
-
-</section>
     </header>
 
     <main class="container mx-auto">
-<section class="-mt-24 md:mt-32 lg:mt-36 px-4 md:px-0">
-<h2 class="font-adlam text-2xl md:text-3xl lg:text-4xl">Browse By Categories</h2>
-<div class="mt-8 md:mt-10 lg:mt-12 grid grid-cols-2 grid-rows-3  gap-2 md:grid-cols-3 md:grid-rows-2 lg:grid-cols-6 lg:grid-rows-1 w-full ">
-   <!-- card 1 -->
-  <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
-    <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
-      <img class="mx-auto w-auto " src="c1-assets/dog-cartoon.png" alt="">
-    </div>
-    <div>
-      <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Dog</h4>
-      <p class="text-sm md:text-base">3 items</p>
-    </div>
-  </div>
-
-<!-- card 2 -->
-  <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
-    <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
-      <img class="mx-auto w-auto " src="c1-assets/fish-cartoon.png" alt="">
-    </div>
-    <div>
-      <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Fish</h4>
-      <p class="text-sm md:text-base">3 items</p>
-    </div>
-  </div>
-
-  <!-- card 3 -->
-  <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
-    <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
-      <img class="mx-auto w-auto " src="c1-assets/cat-cartoon.png" alt="">
-    </div>
-    <div>
-      <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Cat</h4>
-      <p class="text-sm md:text-base">3 items</p>
-    </div>
-  </div>
-  <!-- card-4 -->
-  <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
-    <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
-      <img class="mx-auto w-auto " src="c1-assets/bird-cartoon.png" alt="">
-    </div>
-    <div>
-      <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Birds</h4>
-      <p class="text-sm md:text-base">3 items</p>
-    </div>
-  </div>
-  <!-- card 5 -->
-  <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
-    <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
-      <img class="mx-auto w-auto " src="c1-assets/mouse-cartoon.png" alt="">
-    </div>
-    <div>
-      <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Small pet</h4>
-      <p class="text-sm md:text-base">3 items</p>
-    </div>
-  </div>
-
-  <!-- card 6 -->
-  <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
-    <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
-      <img class="mx-auto w-auto " src="c1-assets/rabbit-cartoon.png" alt="">
-    </div>
-    <div>
-      <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Rabit</h4>
-      <p class="text-sm md:text-base">3 items</p>
-    </div>
-  </div> 
-
-
-  
-  
-  
-
-
-
-</div>
-
-
-</section>
-
+      <section class="px-4 md:px-0">
+        <h2 class="font-adlam text-2xl md:text-3xl lg:text-4xl">Browse By Categories</h2>
+        <div class="mt-8 md:mt-10 lg:mt-12 grid grid-cols-2 grid-rows-3  gap-2 md:grid-cols-3 md:grid-rows-2 lg:grid-cols-6 lg:grid-rows-1 w-full ">
+           <!-- card 1 -->
+          <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
+            <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
+              <img class="mx-auto w-auto " src="c1-assets/dog-cartoon.png" alt="">
+            </div>
+            <div>
+              <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Dog</h4>
+              <p class="text-sm md:text-base">3 items</p>
+            </div>
+          </div>
+        
+        <!-- card 2 -->
+          <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
+            <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
+              <img class="mx-auto w-auto " src="c1-assets/fish-cartoon.png" alt="">
+            </div>
+            <div>
+              <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Fish</h4>
+              <p class="text-sm md:text-base">3 items</p>
+            </div>
+          </div>
+        
+          <!-- card 3 -->
+          <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
+            <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
+              <img class="mx-auto w-auto " src="c1-assets/cat-cartoon.png" alt="">
+            </div>
+            <div>
+              <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Cat</h4>
+              <p class="text-sm md:text-base">3 items</p>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
+            <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
+              <img class="mx-auto w-auto " src="c1-assets/bird-cartoon.png" alt="">
+            </div>
+            <div>
+              <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Birds</h4>
+              <p class="text-sm md:text-base">3 items</p>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
+            <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
+              <img class="mx-auto w-auto " src="c1-assets/mouse-cartoon.png" alt="">
+            </div>
+            <div>
+              <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Small pet</h4>
+              <p class="text-sm md:text-base">3 items</p>
+            </div>
+          </div>
+        
+          <!-- card 6 -->
+          <div class="bg-[#F9DF8A] w-full h-56 md:h-64 text-center flex flex-col justify-center rounded-xl btn">
+            <div class="bg-white w-[90px] md:w-[104px] h-[90px] md:h-[104px] mx-auto flex items-center rounded-full mb-5 md:mb-6">
+              <img class="mx-auto w-auto " src="c1-assets/rabbit-cartoon.png" alt="">
+            </div>
+            <div>
+              <h4 class="font-adlam text-lg md:text-xl mb-2 md:mb-3">Rabit</h4>
+              <p class="text-sm md:text-base">3 items</p>
+            </div>
+          </div> 
+        </div>
+        
+        
+        </section>
+        
 
     </main>
 
